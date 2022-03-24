@@ -14,6 +14,8 @@ Pyhton 3.9
     python manage.py runserver
     python manage.py migrate
     python manage.py createsuperuser
+    User:
+    Password:
 ```
 Install app components, all needed
 ```bash

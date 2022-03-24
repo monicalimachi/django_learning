@@ -13,8 +13,10 @@ def contact_view(request, *args, **kwargs):
 def about_view(request, *args,**kwargs):
     #return HttpResponse("<h1>About page</h1>")
     my_context={
-        "my_text":"This is about us",
+        "my_title":"This is about us",
         "my_number":123,
-        "my_list":[123,231,321,"abc"]
+        "this_is_true": True,
+        "my_list":[123,231,312,"Abc"],
+        "my_html":"<h1>Hello World</h1>"
     }
     return render(request, "about.html", my_context)
